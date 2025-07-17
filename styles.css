@@ -1,0 +1,90 @@
+body{
+    background-color: #e4eef8;
+    font-family: 'Gill Sans';
+}
+
+.wrapper{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    color: #343f44;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.logo i{
+    color: #2e86fd;
+    font-size: 45px;
+}
+
+.menu{
+    margin-left: 100px;
+    flex-grow: 2;
+    color: #343f44;
+}
+
+.menu ul{
+    display: flex;
+    list-style-type: none;
+}
+
+.menu li{
+    margin-right: 30px;
+    font-weight: 600;
+}
+
+.outline-button{
+    padding: 10px 20px;
+    background-color: transparent;
+    border: solid 2px #2e86fd;
+    color: #2e86fd;
+    font-weight: bold;
+}
+
+.presentation{
+    text-align: center;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+}
+
+.presentation .pre-title{
+    color: #6f7880;
+    text-transform: uppercase;
+    font-size: 15px;
+    display: block;
+    font-weight: 700;
+}
+
+.presentation h1{
+    color: #343f44;
+    font-size: 70px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.presentation .post-title{
+    color: #6f7880;
+    font-size: 21px;
+    display: block;
+    font-weight: 600;
+    margin-bottom: 30px;
+    padding: 0 50px;
+}
+
+.secondary-p{
+    color: #969da5;
+    font-weight: 600;
+}
